@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Olivae</title>
+	<link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="assets/images/favicon/icon.png">
+	<link href="https://fonts.googleapis.com/css2?family=Elsie&amp;display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Elsie&amp;family=Lexend:wght@400;500&amp;display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/all.min.css">
+	<link rel="stylesheet" href="assets/css/slick.css">
+	<link rel="stylesheet" href="assets/css/aos.css">
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/photoswipe.min.css">
+	<link rel="stylesheet" href="assets/css/default-skin.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/media-query.css">
+</head>
+
+<body>
+	<div class="site_content">
+		<!-- Preloader Start -->
+		<div id="overlayer">
+			<div id="spinner">
+				<svg class="spinner-webkit" xmlns="http://www.w3.org/2000/svg" viewBox="-1 -1 54 54">
+					<path
+						d="M28.14,44a3.26,3.26,0,0,1,.53,1.63l.3,4.93a1.42,1.42,0,0,0,1.66,1.31A25.85,25.85,0,0,0,52.18,26.38v0A25.84,25.84,0,1,0,22.05,51.83a1.43,1.43,0,0,0,1.66-1.31L24,45.6a3.74,3.74,0,0,1,1.7-2.84l6.52-5.18a7.06,7.06,0,0,0,2.61-5.71L33.43,9.11A.16.16,0,0,0,33.26,9L32.18,9A1.4,1.4,0,0,0,30.9,10.4v15a1.46,1.46,0,0,1-1.46,1.46h0A1.46,1.46,0,0,1,28,25.45V10.79a1.65,1.65,0,0,0-1.65-1.65h0a1.65,1.65,0,0,0-1.65,1.65V25.45a1.46,1.46,0,0,1-1.46,1.46h0a1.46,1.46,0,0,1-1.46-1.46v-15A1.4,1.4,0,0,0,20.5,9L19.42,9a.16.16,0,0,0-.17.15L17.84,31.87a7.06,7.06,0,0,0,2.61,5.71l5.89,4.68">
+					</path>
+				</svg>
+				<div class="spinner-ie"></div>
+			</div>
+		</div>
+		<!-- Preloader End -->
+		<!-- Header Section Start -->
+		<header id="header">
+			<div class="header-full-section">
+				<div class="header-logo">
+					<a href="index">
+						<img src="assets/images/logo/logo.png" alt="header-logo" class="homepage1-logo"
+							style="height:70px; width:auto;">
+					</a>
+				</div>
+				<div class="header-menu-wrap">
+					<div class="header-nav-wrap">
+						<nav class="navbar navbar-expand-xl p-0">
+							<div class="navbar-collapse" id="navbarSupportedContent">
+								<div class="navbar-nav mx-auto align-items-center">
+									<ul class="nav-left p-0">
+										<li class="nav-item">
+											<a class="nav-link  active" aria-current="page" href="index">HOME</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="about-us">
+												ABOUT US
+											</a>
+										</li>
+										<li class="nav-item dropdown">
+											<a class="nav-link dropdown-toggle " href="javascript:void(0);">
+												MENU
+											</a>
+											<ul class="dropdown-menu blog-menu-sub">
+												<li class="has-sub-main">
+													<a class="dropdown-item" href="#">MENU1</a>
+												</li>
+												<li class="has-sub-main">
+													<a class="dropdown-item" href="#">MENU2</a>
+												</li>
+											</ul>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="contact-us">CONTACT US</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</nav>
+					</div>
+				</div>
+				<div class="mobile-menu-wrap d-lg-none d-block">
+					<div class="mb-header-left">
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+							data-bs-target="#navbarSupportedmobile" aria-controls="navbarSupportedmobile"
+							aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarSupportedmobile">
+							<span class="close-menu"><i class="fa-regular fa-xmark"></i></span>
+							<nav id='cssmenu'>
+								<ul class="open-detail-menu">
+									<li><a href='index'>HOME</a>
+									</li>
+									<li><a href='about-us'>ABOUT US</a>
+									</li>
+									<li><a href='javascript:void(0);'>MENU</a>
+										<ul class="sub-back-wrap">
+											<li><a href='#'>Menu1</a>
+											</li>
+											<li><a href='#'>Menu2</a>
+											</li>
+										</ul>
+									</li>
+									<li><a href='contact-us'>CONTACT US</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+				<div class="header-cart-sec">
+					<div class="mobile-menu-icon">
+						<a data-bs-toggle="collapse" href="#navbarSupportedmobile" role="button">
+							<i class="fa-solid fa-bars"></i>
+						</a>
+					</div>
+					<div class="header-cart-sec-first">
+						<a href="#" class="cart-badge">
+							<img src="assets/images/Homepage1/call-svg.svg" alt="cart-icon">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="header-boder"></div>
+		</header>
+		<!-- Header Section End -->
+
+		<!-- Hero Section Start -->
+		<section id="hero-section" class="home2-hero-section-full">
+			<div class="container line index-hero-tb">
+				<span class="line-3"></span>
+				<span class="line-4"></span>
+				<span class="line-5"> </span>
+				<div class="hero-Wrapper-full">
+					<div class="hero-heading">
+						<h1 class="hero-title wow fadeInDown" data-wow-duration="1s" data-wow-delay="2.5s">Crafted With
+							Italian Heart</h1>
+						<div class="hero-img-sec1">
+							<img src="assets/images/Homepage1/hero-1.png" alt="food-img">
+						</div>
+					</div>
+					<div class="hero-bottom">
+						<div class="hero-bottom-wrapper">
+							<div class="hero-left">
+								<div class="hero-left-full">
+									<div class="line-sec">
+										<div class="yellow-line"></div>
+									</div>
+									<div class="line-txt-sec">
+										<p class="hero-para">We carry a genuine passion for Italy. Tradition is the
+											secret
+											ingredient that makes every dining experience feel warm and truly
+											unforgettable.
+										</p>
+									</div>
+								</div>
+								<div class="dicover-menu-btn">
+									<a href="#">Discover Menu</a>
+								</div>
+							</div>
+							<div class="hero-right" data-aos="fade-left" data-aos-duration="1000">
+								<div class="hero-img-sec">
+									<img src="assets/images/Homepage1/hero-1.png" alt="food-img">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Hero Section End -->
+		<!-- Hero Video Section Start -->
+		<section id="hero-video-sec" class="reveal">
+			<div class="hero-video-sec-full">
+				<h2 class="d-none">Video Section</h2>
+				<div id="expand2" class="video-homepage image">
+					<img src="assets/images/Homepage1/video-bg.png" alt="food-img">
+					<div class="video_button">
+						<a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#hero-video-modal">
+							<div class="video_sec_play">
+								<svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<mask id="mask0_505_17229" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0"
+										y="0" width="40" height="40">
+										<rect width="40" height="40" fill="white" />
+									</mask>
+									<g mask="url(#mask0_505_17229)">
+										<path fill-rule="evenodd" clip-rule="evenodd"
+											d="M20 4.16669C28.7432 4.16669 35.8334 11.2553 35.8334 20C35.8334 28.7448 28.7432 35.8334 20 35.8334C11.2553 35.8334 4.16669 28.7448 4.16669 20C4.16669 11.2553 11.2553 4.16669 20 4.16669Z"
+											stroke="#0B1315" stroke-width="2" stroke-linecap="round"
+											stroke-linejoin="round" />
+										<path fill-rule="evenodd" clip-rule="evenodd"
+											d="M25 19.9919C25 18.64 18.0709 14.3152 17.2849 15.0928C16.4988 15.8705 16.4233 24.0401 17.2849 24.891C18.1465 25.7449 25 21.3438 25 19.9919Z"
+											stroke="#0B1315" stroke-width="2" stroke-linecap="round"
+											stroke-linejoin="round" />
+									</g>
+								</svg>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Hero Video Section End -->
+		<!-- Chefs Secrets Start -->
+		<section id="chefs-secrets-section" class="reveal">
+			<div class="container line ptb-100">
+				<span class="line-3"></span>
+				<span class="line-4"></span>
+				<span class="line-5"> </span>
+				<div class="chefs-top-sec">
+					<h2 class="chefs-txt1 wow fadeInUp" data-wow-duration="1s">Authentic Italian Specialities Crafted
+						With A
+						Passionate Touch</h2>
+				</div>
+				<div class="chefs-bottom-sec">
+					<div class="chefs-bottom-sec-wrap">
+						<div class="chefs-bottom-left">
+							<div class="chefs-img-sec">
+								<div class="chefs-img-sec-22 pbmit-animation-style1 reveal">
+									<img src="assets/images/Homepage1/chefs-1.png" alt="food-img" class="">
+								</div>
+								<div class="chefs-img-sec-2">
+									<img src="assets/images/Homepage1/chefs-2.png" alt="food-img">
+								</div>
+							</div>
+						</div>
+						<div class="chefs-bottom-rigth">
+							<div class="chefs-bottom-rigth-wrap">
+								<p class="chefs-txt2"><span class="pr-10"><img
+											src="assets/images/Homepage1/yellow-star.png" alt="yellow-star"></span>OUR
+									STORY<span class="pf-10"><img src="assets/images/Homepage1/yellow-star.png"
+											alt="yellow-star"></span></p>
+								<h3 class="chefs-txt3 wow fadeInUp" data-wow-duration="1s">Truly Warm & Memorable
+									Dining For Those Special Moments In Life</h3>
+								<p class="chefs-txt4 wow fadeInUp" data-wow-duration="1.5s">At Olivae, every dish is
+									rooted in
+									heritage and crafted with heart. Our kitchen honors classic Italian tradition
+									through
+									refined flavors, seasonal ingredients, and artisanal care. Each plate is a
+									celebration
+									of culture, community, and the joy of sharing a beautiful meal together.</p>
+								<h4 class="booking">Booking Request</h4>
+								<div class="chef-number">
+									<a href="tel:+012345678990">+01-2345-678-990</a>
+								</div>
+								<div class="chef-reservation-btn">
+									<a href="#">Make A Reservation</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Chefs Secrets End -->
+		<!-- Ticker Section Start -->
+		<section id="ticker-section">
+			<div class="ticker-wrap">
+				<h2 class="d-none">Ticker Section</h2>
+				<div class="marquee">
+					<div class="marquee_group">
+						<p>Table Reservations</p>
+						<p aria-hidden="true">Fine Dining</p>
+						<p aria-hidden="true">Private Events</p>
+						<p aria-hidden="true">Cafe & Brunch</p>
+						<p aria-hidden="true">Wine Pairings</p>
+					</div>
+					<div aria-hidden="true" class="marquee_group">
+						<p>Table Reservations</p>
+						<p>Fine Dining</p>
+						<p>Private Events</p>
+						<p>Cafe & Brunch</p>
+						<p>Wine Pairings</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Ticker Section End -->
+
+		<!-- Cocktails Section Start -->
+		<section id="menupage-2-cocktails-sec" class="reveal">
+			<div class="container line menupage-2-cocktails-sec">
+				<span class="line-3"></span>
+				<span class="line-4"></span>
+				<span class="line-5"> </span>
+				<div class="chefs-top-sec mb-5">
+					<h2 class="chefs-txt1 wow fadeInUp" data-wow-duration="1s">Explore our Menu</h2>
+				</div>
+				<div class="menupage-2-cocktails-sec-full" data-aos="fade-down-right">
+					<div class="menupage-2-cocotails-left">
+						<div class="menupage-2-cocotails-left-top">
+							<p class="menupage2-drink-txt1"><span class="pr-10"><img
+										src="assets/images/Homepage1/yellow-star.png"
+										alt="yellow-star"></span>DRINKS<span class="pf-10"><img
+										src="assets/images/Homepage1/yellow-star.png" alt="yellow-star"></span></p>
+							<h2 class="menupage1-cocotails-txt2">Cocktails</h2>
+						</div>
+						<div class="menupage2-deatails">
+							<div class="menupage-2-cocotails-left-bottom">
+								<a href="single-shop.html">
+									<div class="menu2-descri">
+										<span class="menupage2-drink-name">Aperol Spritz</span>
+										<span class="menupage2-drink-price">$20</span>
+									</div>
+									<p class="menupage2-drink-para">A classic Italian aperitivo, light and refreshingly
+										bitter with golden citrus notes.</p>
+									<div class="menupage2-dashed-line"></div>
+								</a>
+							</div>
+							<div class="menupage-2-cocotails-left-bottom">
+								<a href="single-shop.html">
+									<div class="menu2-descri">
+										<span class="menupage2-drink-name">Negroni Bianco</span>
+										<span class="menupage2-drink-price">$28</span>
+									</div>
+									<p class="menupage2-drink-para">Crisp white vermouth blended smooth, balanced with
+										aromatic Italian botanicals.</p>
+									<div class="menupage2-dashed-line"></div>
+								</a>
+							</div>
+							<div class="menupage-2-cocotails-left-bottom">
+								<a href="single-shop.html">
+									<div class="menu2-descri">
+										<span class="menupage2-drink-name">Limoncello Fizz</span>
+										<span class="menupage2-drink-price">$32</span>
+									</div>
+									<p class="menupage2-drink-para">Sun-kissed Amalfi lemon, sparkling and zesty.</p>
+									<div class="menupage2-dashed-line"></div>
+								</a>
+							</div>
+							<div class="menupage-2-cocotails-left-bottom">
+								<a href="single-shop.html">
+									<div class="menu2-descri">
+										<span class="menupage2-drink-name">Rosso Amaro</span>
+										<span class="menupage2-drink-price">$25</span>
+									</div>
+									<p class="menupage2-drink-para">A rich Italian amaro, deep and warming with heritage
+										botanical flavors.</p>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="menupage-2-cocotails-right">
+						<div class="menupage-2-cocotails-right-full">
+							<div class="">
+								<img src="assets/images/menupage-2/cocktails.png"
+									class="img-fluid cocktails-img pbmit-animation-style1 reveal" alt="food-img">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Cocktails Section End -->
+		<!-- Desserts Section Start -->
+		<section id="menupage-2-dessert-sec" class="reveal active">
+			<div class="container menupage-2-dessert-sec line">
+				<span class="line-3"></span>
+				<span class="line-4"></span>
+				<span class="line-5"> </span>
+				<div class="menupage-2-appetizers-sec-full" data-aos="fade-down-left">
+					<div class="menupage-2-app-left">
+						<div class="menupage-2-cocotails-left-top">
+							<p class="menupage2-drink-txt1"><span class="pr-10"><img
+										src="assets/images/Homepage1/yellow-star.png" alt="yellow-star"></span>SWEET
+								DREAMS<span class="pf-10"><img src="assets/images/Homepage1/yellow-star.png"
+										alt="yellow-star"></span></p>
+							<h2 class="menupage1-cocotails-txt2">Desserts</h2>
+						</div>
+						<div class="menupage2-deatails">
+							<div class="menupage-2-cocotails-left-bottom">
+								<a href="single-shop.html">
+									<div class="menu2-descri">
+										<span class="menupage2-drink-name">Creole Cream Cheesecake</span>
+										<span class="menupage2-drink-price">$20</span>
+									</div>
+									<p class="menupage2-drink-para">At placerat congue egestas at vestibulum magna morbi
+										faucibus lorem. </p>
+									<div class="menupage2-dashed-line"></div>
+								</a>
+							</div>
+							<div class="menupage-2-cocotails-left-bottom">
+								<a href="single-shop.html">
+									<div class="menu2-descri">
+										<span class="menupage2-drink-name">Bananas Foster</span>
+										<span class="menupage2-drink-price">$28</span>
+									</div>
+									<p class="menupage2-drink-para">Et leo urna elit commodo, quis vitae dolor in
+										tempus.</p>
+									<div class="menupage2-dashed-line"></div>
+								</a>
+							</div>
+							<div class="menupage-2-cocotails-left-bottom">
+								<a href="single-shop.html">
+									<div class="menu2-descri">
+										<span class="menupage2-drink-name">Southern Pecan Pie</span>
+										<span class="menupage2-drink-price">$32</span>
+									</div>
+									<p class="menupage2-drink-para">Dui urna, vel, dui in. Accumsan ac risus. </p>
+									<div class="menupage2-dashed-line"></div>
+								</a>
+							</div>
+							<div class="menupage-2-cocotails-left-bottom">
+								<a href="single-shop.html">
+									<div class="menu2-descri">
+										<span class="menupage2-drink-name">Lemon Meringun Pie</span>
+										<span class="menupage2-drink-price">$25</span>
+									</div>
+									<p class="menupage2-drink-para">At placerat congue egestas at vestibulum magna morbi
+										faucibus lorem. </p>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="menupage-2-app-right ">
+						<div class="menupage-2-dessert-right-full">
+							<div class="app-img-sec">
+								<img src="assets/images/menupage-2/desserts.png"
+									class="img-fluid dessert-img pbmit-animation-style2 reveal" alt="food-img">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--  Dessert Section End -->
+
+		<!-- Gallery Section Start -->
+		<section id="homepage1-gallery-sec">
+			<div class="container line index-gallery-top">
+				<span class="line-3"></span>
+				<span class="line-4"></span>
+				<span class="line-5"> </span>
+				<div class="gallery-top-sec">
+					<p class="gallery-txt1"><span class="pr-10"><img src="assets/images/Homepage1/yellow-star.png"
+								alt="yellow-star"></span>OUR GALLERY<span class="pf-10"><img
+								src="assets/images/Homepage1/yellow-star.png" alt="yellow-star"></span></p>
+					<h2 class="gallery-txt">Olivae Signature Dishes</h2>
+				</div>
+			</div>
+
+			<div class="gallery-food-slider" id="gallery">
+				<div class="swiper-wrapper gallery-item-sec">
+					<div class="swiper-slide gallery-slide">
+						<div class="gallery-item">
+							<a class="gallery-popup" href="assets/images/Homepage1/gallery-1.png" data-width="600"
+								data-height="800">
+								<img src="assets/images/Homepage1/gallery-1.png" class="img-fluid" alt="gallery item">
+							</a>
+						</div>
+
+					</div>
+					<div class="swiper-slide gallery-slide">
+						<div class="gallery-item">
+							<a class="gallery-popup" href="assets/images/Homepage1/gallery-2.png"
+								data-caption="Truffle Pasta" data-width="600" data-height="800">
+								<img src="assets/images/Homepage1/gallery-2.png" class="img-fluid" alt="gallery item">
+							</a>
+						</div>
+
+					</div>
+					<div class="swiper-slide gallery-slide">
+						<div class="gallery-item">
+							<a class="gallery-popup" href="assets/images/Homepage1/gallery-3.png" data-width="600"
+								data-height="800">
+								<img src="assets/images/Homepage1/gallery-3.png" class="img-fluid" alt="gallery item">
+							</a>
+						</div>
+
+					</div>
+					<div class="swiper-slide gallery-slide">
+						<div class="gallery-item">
+							<a class="gallery-popup" href="assets/images/Homepage1/gallery-4.png" data-width="600"
+								data-height="800">
+								<img src="assets/images/Homepage1/gallery-4.png" class="img-fluid" alt="gallery item">
+							</a>
+						</div>
+						>
+					</div>
+					<div class="swiper-slide gallery-slide">
+						<div class="gallery-item">
+							<a class="gallery-popup" href="assets/images/Homepage1/gallery-5.png" data-width="600"
+								data-height="800">
+								<img src="assets/images/Homepage1/gallery-5.png" class="img-fluid" alt="gallery item">
+							</a>
+						</div>
+
+					</div>
+					<div class="swiper-slide gallery-slide">
+						<div class="gallery-item">
+							<a class="gallery-popup" href="assets/images/Homepage1/gallery-1.png" data-width="600"
+								data-height="800">
+								<img src="assets/images/Homepage1/gallery-1.png" class="img-fluid" alt="gallery item">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+				<div class="pswp__bg"></div>
+				<div class="pswp__scroll-wrap">
+					<div class="pswp__container">
+						<div class="pswp__item"></div>
+						<div class="pswp__item"></div>
+						<div class="pswp__item"></div>
+					</div>
+					<div class="pswp__ui pswp__ui--hidden">
+						<div class="pswp__top-bar">
+							<div class="pswp__counter"></div>
+							<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+							<button class="pswp__button pswp__button--share" title="Share"></button>
+							<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+							<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+							<div class="pswp__preloader">
+								<div class="pswp__preloader__icn">
+									<div class="pswp__preloader__cut">
+										<div class="pswp__preloader__donut"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+							<div class="pswp__share-tooltip"></div>
+						</div>
+						<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+						</button>
+						<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+						</button>
+						<div class="pswp__caption">
+							<div class="pswp__caption__center"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Gallery Section End -->
+
+		<!-- Visit Section Start -->
+		<section id="visit-restaurant-sec" class="reveal pt-5">
+			<div class="container line visit-restaurant-sec1">
+				<span class="line-3"></span>
+				<span class="line-4"></span>
+				<span class="line-5"> </span>
+				<div class="visit-restaurant-full">
+					<div class="visit-restaurant-left" data-aos="fade-right">
+						<div class="gallery-top-sec">
+							<p class="visit-txt1"><span class="pr-10"><img src="assets/images/Homepage1/yellow-star.png"
+										alt="yellow-star"></span>COME FIND US<span class="pf-10"><img
+										src="assets/images/Homepage1/yellow-star.png" alt="yellow-star"></span></p>
+							<h2 class="visit-txt2">Visit Our Restaurant</h2>
+							<p class="visit-txt3">Every guest is warmly welcomed like family at our table. Via della
+								Vigna Nuova - 1050122, USA.</p>
+							<div class="homepage-calling">
+								<p class="visit-no-txt">M:<a href="mailto:booking@Olivae.com"
+										class="Visit-no">booking@Olivae.com</a></p>
+								<p class="visit-no-txt">T:<a href="tel:1300748133" class="Visit-no">+1(234)567 8899</a>
+								</p>
+							</div>
+							<div class="direction-btn">
+								<a href="contact-us">Get Directions</a>
+							</div>
+						</div>
+					</div>
+					<div class="visit-restaurant-right" data-aos="fade-left">
+						<div class="visit-restaurant-right-full">
+							<div class="visit-restaurant-right-img1 pbmit-animation-style1 reveal">
+								<img src="assets/images/Homepage1/visit-1.png" alt="food-img">
+							</div>
+							<div class="visit-restaurant-right-img2 pbmit-animation-style1 reveal">
+								<img src="assets/images/Homepage1/visit-2.png" alt="food-img">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Visit Section End -->
+		<!-- Footer Section Start -->
+		<footer id="menupage-1-footer-sec" class="bg-col">
+			<div class="container">
+				<div class="home2-footer-sec-full">
+					<div class="home2-footer-bottom">
+						<div class="home2-footer-bottom-full">
+							<div class="home2-footer-details">
+								<h4 class="home2-footer-txt1">ABOUT OLIVAE</h4>
+								<p class="home2-footer-txt2">A high-end Italian restaurant and cafe blending classic
+									culinary tradition with a modern, nature-inspired ambiance. Crafted with
+									heart, served with warmth.
+								</p>
+								<div class="home2-footer-social-medial">
+									<div class="social-media">
+										<a href="https://www.facebook.com/" target="_blank">
+											<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<mask id="mask0_502_2975" style="mask-type:alpha"
+													maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+													<path d="M0 0H24V24H0V0Z" fill="white"></path>
+												</mask>
+												<g mask="url(#mask0_502_2975)">
+													<path
+														d="M14 13.5H16.5L17.5 9.5H14V7.5C14 6.47 14 5.5 16 5.5H17.5V2.14C17.174 2.097 15.943 2 14.643 2C11.928 2 10 3.657 10 6.7V9.5H7V13.5H10V22H14V13.5Z"
+														fill="#99A9AD"></path>
+												</g>
+											</svg>
+										</a>
+									</div>
+									<div class="social-media">
+										<a href="https://twitter.com/" target="_blank">
+											<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<mask id="mask0_502_2978" style="mask-type:alpha"
+													maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+													<path d="M0 0H24V24H0V0Z" fill="white"></path>
+												</mask>
+												<g mask="url(#mask0_502_2978)">
+													<path
+														d="M22.162 5.65593C21.3986 5.99362 20.589 6.2154 19.76 6.31393C20.6338 5.79136 21.2877 4.96894 21.6 3.99993C20.78 4.48793 19.881 4.82993 18.944 5.01493C18.3146 4.34151 17.4804 3.89489 16.571 3.74451C15.6616 3.59413 14.7279 3.74842 13.9153 4.18338C13.1026 4.61834 12.4564 5.30961 12.0771 6.14972C11.6978 6.98983 11.6068 7.93171 11.818 8.82893C10.1551 8.74558 8.52834 8.31345 7.04329 7.56059C5.55825 6.80773 4.24813 5.75097 3.19801 4.45893C2.8263 5.09738 2.63096 5.82315 2.63201 6.56193C2.63201 8.01193 3.37001 9.29293 4.49201 10.0429C3.82802 10.022 3.17864 9.84271 2.59801 9.51993V9.57193C2.59821 10.5376 2.93238 11.4735 3.54385 12.221C4.15533 12.9684 5.00649 13.4814 5.95301 13.6729C5.33662 13.84 4.69031 13.8646 4.06301 13.7449C4.32987 14.5762 4.85001 15.3031 5.5506 15.824C6.25118 16.3449 7.09714 16.6337 7.97001 16.6499C7.10249 17.3313 6.10918 17.8349 5.04689 18.1321C3.98459 18.4293 2.87413 18.5142 1.77901 18.3819C3.6907 19.6114 5.9161 20.264 8.18901 20.2619C15.882 20.2619 20.089 13.8889 20.089 8.36193C20.089 8.18193 20.084 7.99993 20.076 7.82193C20.8949 7.23009 21.6016 6.49695 22.163 5.65693L22.162 5.65593Z"
+														fill="#99A9AD"></path>
+												</g>
+											</svg>
+										</a>
+									</div>
+									<div class="social-media">
+										<a href="https://www.instagram.com/" target="_blank">
+											<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<mask id="mask0_569_5758" style="mask-type:alpha"
+													maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+													<path d="M0 0H24V24H0V0Z" fill="white" />
+												</mask>
+												<g mask="url(#mask0_569_5758)">
+													<path
+														d="M12 2C14.717 2 15.056 2.01 16.122 2.06C17.187 2.11 17.912 2.277 18.55 2.525C19.21 2.779 19.766 3.123 20.322 3.678C20.8305 4.1779 21.224 4.78259 21.475 5.45C21.722 6.087 21.89 6.813 21.94 7.878C21.987 8.944 22 9.283 22 12C22 14.717 21.99 15.056 21.94 16.122C21.89 17.187 21.722 17.912 21.475 18.55C21.2247 19.2178 20.8311 19.8226 20.322 20.322C19.822 20.8303 19.2173 21.2238 18.55 21.475C17.913 21.722 17.187 21.89 16.122 21.94C15.056 21.987 14.717 22 12 22C9.283 22 8.944 21.99 7.878 21.94C6.813 21.89 6.088 21.722 5.45 21.475C4.78233 21.2245 4.17753 20.8309 3.678 20.322C3.16941 19.8222 2.77593 19.2175 2.525 18.55C2.277 17.913 2.11 17.187 2.06 16.122C2.013 15.056 2 14.717 2 12C2 9.283 2.01 8.944 2.06 7.878C2.11 6.812 2.277 6.088 2.525 5.45C2.77524 4.78218 3.1688 4.17732 3.678 3.678C4.17767 3.16923 4.78243 2.77573 5.45 2.525C6.088 2.277 6.812 2.11 7.878 2.06C8.944 2.013 9.283 2 12 2ZM12 7C10.6739 7 9.40215 7.52678 8.46447 8.46447C7.52678 9.40215 7 10.6739 7 12C7 13.3261 7.52678 14.5979 8.46447 15.5355C9.40215 16.4732 10.6739 17 12 17C13.3261 17 14.5979 16.4732 15.5355 15.5355C16.4732 14.5979 17 13.3261 17 12C17 10.6739 16.4732 9.40215 15.5355 8.46447C14.5979 7.52678 13.3261 7 12 7V7ZM18.5 6.75C18.5 6.41848 18.3683 6.10054 18.1339 5.86612C17.8995 5.6317 17.5815 5.5 17.25 5.5C16.9185 5.5 16.6005 5.6317 16.3661 5.86612C16.1317 6.10054 16 6.41848 16 6.75C16 7.08152 16.1317 7.39946 16.3661 7.63388C16.6005 7.8683 16.9185 8 17.25 8C17.5815 8 17.8995 7.8683 18.1339 7.63388C18.3683 7.39946 18.5 7.08152 18.5 6.75ZM12 9C12.7956 9 13.5587 9.31607 14.1213 9.87868C14.6839 10.4413 15 11.2044 15 12C15 12.7956 14.6839 13.5587 14.1213 14.1213C13.5587 14.6839 12.7956 15 12 15C11.2044 15 10.4413 14.6839 9.87868 14.1213C9.31607 13.5587 9 12.7956 9 12C9 11.2044 9.31607 10.4413 9.87868 9.87868C10.4413 9.31607 11.2044 9 12 9V9Z"
+														fill="#99A9AD" />
+												</g>
+											</svg>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="home2-footer-details">
+								<h4 class="home2-footer-txt1">QUICK LINKS</h4>
+								<p class="home2-footer-txt"><a href="index">Home</a></p>
+								<p class="home2-footer-txt"><a href="about-us">About Us</a></p>
+								<p class="home2-footer-txt"><a href="#">Our Menu</a></p>
+								<p class="home2-footer-txt"><a href="#">Blog</a></p>
+								<p class="home2-footer-txt"><a href="contact-us">Contact Us</a></p>
+							</div>
+							<div class="home2-footer-details">
+								<h4 class="home2-footer-txt1">CONTACT US</h4>
+								<p class="home2-footer-txt2">Olivae Restaurant & Cafe
+									Via della Vigna Nuova, New York, USA</p>
+								<p class="home2-footer-txt"><a href="tel:1300748133">+1(234)567 8899</a></p>
+								<p class="home2-footer-txt"><a href="mailto:booking@Olivae.com">booking@olivae.com</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div class="homepage-copyright-sec">
+					<div class="container">
+						<div class="copyright-full-sec">
+							<div class="copyright-left">
+								<p class="copyright-txt-homepage1">
+									© 2026 Olivae. All Rights Reserved.
+								</p>
+							</div>
+							<div class="copyright-right">
+								<p class="copyright-txt-homepage1">
+									Designed & Developed by
+									<a href="https://hyperpath.in" target="_blank" style="color: #eee3d4;">
+										Hyperpath
+									</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- Footer Section End -->
+
+		<!-- Hero Video Modal Start -->
+		<div class="modal fade homepage-video-modal" id="hero-video-modal">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<video class="video-sec" controls loop muted autoplay>
+							<source src="#" type="video/mp4">
+						</video>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Hero Video Modal End -->
+		<!--Scroll Top to Bottom Start -->
+		<div class="scroll-top" data-scroll="up" style="">
+		</div>
+		<!--Scroll Top to Bottom  End -->
+	</div>
+	<script src="assets/js/jquery-min-3.6.0.js"></script>
+	<script src="assets/js/slick.min.js"></script>
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/js/aos.js"></script>
+	<script src="assets/js/jquery-ui.min.js"></script>
+	<script src="assets/js/datepicker.js"></script>
+	<script src="assets/js/wow.min.js"></script>
+	<script src="assets/js/photoswipe.min.js"></script>
+	<script src="assets/js/photoswipe-ui-default.min.js"></script>
+	<script src="assets/js/gallery-popup.js"></script>
+	<script src="assets/js/TweenMax.min.js"></script>
+	<script src="assets/js/ScrollMagic.js"></script>
+	<script src="assets/js/animation.gsap.min.js"></script>
+	<script src="assets/js/scolling.js"></script>
+	<script src="assets/js/custom.js"></script>
+</body>
+
+
+</html>

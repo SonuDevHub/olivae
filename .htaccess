@@ -1,0 +1,30 @@
+# Enable rewrite engine
+RewriteEngine On
+
+# ----------------------------------------
+# 1. Redirect index.php or index.html to root
+# (Preserve anchors like #about using NE,QSA flags)
+# ----------------------------------------
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/(index\.php|index\.html) [NC]
+RewriteRule ^(index\.php|index\.html)$ / [R=301,L,NE,QSA]
+
+# ----------------------------------------
+# 2. Handle non-existing files or directories
+# ----------------------------------------
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# ----------------------------------------
+# 3. Internally rewrite clean URLs to PHP or HTML
+# (example.com/about → about.php or about.html)
+# ----------------------------------------
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.+?)/?$ $1.php [L]
+
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.+?)/?$ $1.html [L]
+
+# ----------------------------------------
+# 4. Block direct access to contactUs route
+# ----------------------------------------
+RedirectMatch 403 ^/contactUs$
