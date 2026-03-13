@@ -1,3 +1,24 @@
+@font-face {
+    font-family: 'PolymathRegular';
+    src: url('fonts/PolymathDispDemo-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PolymathBold';
+    src: url('fonts/PolymathDispDemo-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ivyOra';
+    src: url('fonts/IvyOraDisplay-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -55,10 +76,12 @@ a {
     justify-content: center;
     border-radius: 30px;
 }
-.header-cart-sec-first a img{
+
+.header-cart-sec-first a img {
     height: 30px;
     width: 30px;
 }
+
 .visit-restaurant-sec1 {
     padding-bottom: 100px;
 }
@@ -236,7 +259,7 @@ a.add-cart-bnt:hover {
 }
 
 .hero-title {
-    font-family: 'Elsie';
+    font-family: 'ivyOra';
     font-style: normal;
     font-weight: 400;
     font-size: 128px;
@@ -340,7 +363,7 @@ a.add-cart-bnt:hover {
 .tesimonial-txt2,
 .visit-txt2,
 .homemenu-txt2 {
-    font-family: 'Elsie';
+    font-family: 'ivyOra';
     font-weight: 400;
     font-size: 60px;
     line-height: 70px;
@@ -367,7 +390,7 @@ a.add-cart-bnt:hover {
 }
 
 .rest-txt3 {
-    font-family: 'Elsie';
+    font-family: 'ivyOra';
     font-weight: 400;
     font-size: 30px;
     line-height: 35px;
@@ -407,7 +430,7 @@ a.add-cart-bnt:hover {
 }
 
 .ticker-txt {
-    font-family: 'Elsie';
+    font-family: 'ivyOra';
     font-weight: 400;
     font-size: 60px;
     line-height: 70px;
@@ -429,7 +452,7 @@ a.add-cart-bnt:hover {
 }
 
 .chefs-txt1 {
-    font-family: 'Elsie';
+    font-family: 'ivyOra';
     font-weight: 400;
     font-size: 60px;
     line-height: 70px;
@@ -493,7 +516,7 @@ a.add-cart-bnt:hover {
 
 .counter-txt,
 .counter-txt-K {
-    font-family: 'Elsie';
+    font-family: 'ivyOra';
     font-style: normal;
     font-weight: 900;
     font-size: 80px;
@@ -608,7 +631,7 @@ a.add-cart-bnt:hover {
 }
 
 .tab-menu-txt1 {
-    font-family: 'Elsie';
+    font-family: 'ivyOra';
     font-weight: 400;
     font-size: 30px;
     line-height: 35px;
@@ -647,7 +670,7 @@ a.add-cart-bnt:hover {
 }
 
 .tab-menu-txt3 {
-    font-family: 'Elsie';
+    font-family: 'ivyOra';
     font-weight: 400;
     font-size: 36px;
     line-height: 41px;
@@ -714,7 +737,7 @@ a.add-cart-bnt:hover {
 }
 
 .gallery-txt {
-    font-family: 'Elsie';
+    font-family: 'ivyOra';
     font-weight: 400;
     font-size: 60px;
     line-height: 70px;
@@ -770,7 +793,7 @@ a.add-cart-bnt:hover {
 }
 
 .tesimonial-txt3 {
-    font-family: 'Elsie';
+    font-family: 'ivyOra';
     font-weight: 400;
     font-size: 30px;
     line-height: 40px;
@@ -1086,7 +1109,7 @@ li.widget_media_image,
 
 .marquee p {
     display: inline-block;
-    font-family: 'Elsie';
+    font-family: 'ivyOra';
     font-style: normal;
     font-weight: 400;
     font-size: 60px;
@@ -1357,7 +1380,7 @@ div#expand1 {
 }
 
 .home2-hero-txt1 {
-    font-family: 'Elsie';
+    font-family: 'ivyOra';
     font-weight: 400;
     font-size: 128px;
     line-height: 147px;
@@ -1446,7 +1469,7 @@ div#expand1 {
 }
 
 .home2-our-res-txt2 {
-    font-family: 'Elsie';
+    font-family: 'ivyOra';
     font-weight: 400;
     font-size: 60px;
     line-height: 70px;
@@ -1569,7 +1592,7 @@ div#expand1 {
 }
 
 .home2-chef-txt1 {
-    font-family: 'Elsie';
+    font-family: 'ivyOra';
     font-weight: 400;
     font-size: 128px;
     line-height: 147px;
@@ -1607,7 +1630,7 @@ div#expand1 {
 }
 
 .home2-ser-txt1 {
-    font-family: 'Elsie';
+    font-family: 'ivyOra';
     font-weight: 400;
     font-size: 32px;
     line-height: 37px;
@@ -1670,7 +1693,7 @@ div#expand1 {
 }
 
 .home2-test-txt1 {
-    font-family: 'Elsie';
+    font-family: 'ivyOra';
     font-weight: 400;
     font-size: 30px;
     line-height: 40px;
@@ -1777,7 +1800,7 @@ i.fa-solid.fa-arrow-left {
 }
 
 .home2-blog-txt2 {
-    font-family: 'Elsie';
+    font-family: 'ivyOra';
     font-weight: 400;
     font-size: 32px;
     line-height: 37px;
@@ -1949,7 +1972,7 @@ select.custom-select.custom-select2 {
 }
 
 .home2-gallert-txt1 {
-    font-family: 'Elsie';
+    font-family: 'ivyOra';
     font-weight: 400;
     font-size: 60px;
     line-height: 70px;
@@ -2021,7 +2044,7 @@ select.custom-select.custom-select2 {
 }
 
 .gallery-overlay-txt1 {
-    font-family: 'Elsie';
+    font-family: 'ivyOra';
     font-weight: 400;
     font-size: 32px;
     line-height: 37px;
@@ -2129,7 +2152,7 @@ a.home2-search-icon {
 .home3-form-txt2 {
     color: #FFF;
     font-size: 40px;
-    font-family: Elsie;
+    font-family: ivyOra;
     margin-top: 10px;
 }
 
@@ -2243,7 +2266,7 @@ a.home2-search-icon {
 }
 
 .home3-about-txt2 {
-    font-family: 'Elsie';
+    font-family: 'ivyOra';
     font-weight: 400;
     font-size: 60px;
     line-height: 70px;
@@ -2349,7 +2372,7 @@ a.home2-search-icon {
 }
 
 .home3-menu-txt1 {
-    font-family: 'Elsie';
+    font-family: 'ivyOra';
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
@@ -2359,7 +2382,7 @@ a.home2-search-icon {
 }
 
 .home3-menu-txt2 {
-    font-family: 'Elsie';
+    font-family: 'ivyOra';
     font-weight: 400;
     font-size: 36px;
     line-height: 41px;
@@ -2447,7 +2470,7 @@ i.fa-regular.fa-angle-left {
 }
 
 .home3-fea-txt1 {
-    font-family: 'Elsie';
+    font-family: 'ivyOra';
     font-weight: 400;
     font-size: 60px;
     line-height: 70px;
@@ -2507,7 +2530,7 @@ i.fa-regular.fa-angle-left {
 }
 
 .home3-team-txt2 {
-    font-family: 'Elsie';
+    font-family: 'ivyOra';
     font-weight: 400;
     font-size: 60px;
     line-height: 70px;
@@ -2517,7 +2540,7 @@ i.fa-regular.fa-angle-left {
 }
 
 .home3-team-txt3 {
-    font-family: 'Elsie';
+    font-family: 'ivyOra';
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
@@ -2663,7 +2686,7 @@ i.fa-regular.fa-angle-left {
 }
 
 .content-details .home3-team-overlay-content {
-    font-family: 'Elsie';
+    font-family: 'ivyOra';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -2686,7 +2709,7 @@ i.fa-regular.fa-angle-left {
 }
 
 .home3-tesimonial-txt2 {
-    font-family: 'Elsie';
+    font-family: 'ivyOra';
     font-style: normal;
     font-weight: 400;
     font-size: 60px;
@@ -2696,7 +2719,7 @@ i.fa-regular.fa-angle-left {
 }
 
 .home3-tesimonial-txt3 {
-    font-family: 'Elsie';
+    font-family: 'ivyOra';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -2797,7 +2820,7 @@ i.fa-solid.fa-arrow-left {
 }
 
 .home3-blog-content h3 {
-    font-family: 'Elsie';
+    font-family: 'ivyOra';
     font-weight: 400;
     font-size: 30px;
     line-height: 40px;
@@ -2864,7 +2887,7 @@ i.fa-solid.fa-arrow-left {
 }
 
 .home3-footer-txt1 {
-    font-family: 'Elsie';
+    font-family: 'ivyOra';
     font-style: normal;
     font-weight: 400;
     font-size: 60px;
@@ -2952,7 +2975,7 @@ i.fa-solid.fa-arrow-left {
 }
 
 .home3-hero-txt1 {
-    font-family: 'Elsie';
+    font-family: 'ivyOra';
     font-weight: 400;
     font-size: 96px;
     line-height: 111px;
@@ -3279,7 +3302,7 @@ ul.has-sub-menu {
 /************************ 7.Menupage-1 CSS ***************************/
 .menupage-1-hero-txt1,
 .blog1-hero-txt1 {
-    font-family: 'Elsie';
+    font-family: 'ivyOra';
     font-weight: 400;
     font-size: 96px;
     line-height: 111px;
@@ -3379,7 +3402,7 @@ ul.has-sub-menu {
 }
 
 .menupage1-break-txt2 {
-    font-family: 'Elsie';
+    font-family: 'ivyOra';
     font-weight: 400;
     font-size: 60px;
     line-height: 70px;
@@ -3415,7 +3438,7 @@ ul.has-sub-menu {
     color: #FFFFFF;
     text-align: center;
     font-size: 60px;
-    font-family: Elsie;
+    font-family: ivyOra;
     line-height: 70px;
     margin-top: 20px;
 }
@@ -3612,7 +3635,7 @@ p.reser-txt3-menu1 a {
 }
 
 .menupage1-cocotails-txt2 {
-    font-family: 'Elsie';
+    font-family: 'ivyOra';
     font-weight: 400;
     font-size: 60px;
     line-height: 70px;
@@ -3622,7 +3645,7 @@ p.reser-txt3-menu1 a {
 }
 
 .menupage2-drink-name {
-    font-family: 'Elsie';
+    font-family: 'ivyOra';
     font-weight: 400;
     font-size: 30px;
     line-height: 36px;
@@ -3630,7 +3653,7 @@ p.reser-txt3-menu1 a {
 }
 
 .menupage2-drink-price {
-    font-family: 'Elsie';
+    font-family: 'ivyOra';
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
@@ -3919,13 +3942,13 @@ ul.pagination {
     color: #FFFFFF;
     text-align: center;
     font-size: 60px;
-    font-family: Elsie;
+    font-family: ivyOra;
     line-height: 70px;
     margin-top: 20px;
 }
 
 .menupage5-drink-name {
-    font-family: 'Elsie';
+    font-family: 'ivyOra';
     font-weight: 400;
     font-size: 30px;
     line-height: 36px;
@@ -4118,7 +4141,7 @@ table {
     color: #FFF;
     font-size: 24px;
     line-height: 30px;
-    font-family: Elsie;
+    font-family: ivyOra;
 }
 
 .menu7-txt2 {
@@ -4148,7 +4171,7 @@ table {
     color: #ffffff;
     text-align: center;
     font-size: 30px;
-    font-family: Elsie;
+    font-family: ivyOra;
 }
 
 .menupage8-overlay {
@@ -4201,7 +4224,7 @@ table {
     color: #FFF;
     text-align: center;
     font-size: 60px;
-    font-family: Elsie;
+    font-family: ivyOra;
     line-height: 70px;
 }
 
@@ -4272,7 +4295,7 @@ table {
 .blog2-txt2 {
     color: #FFF;
     font-size: 40px;
-    font-family: Elsie;
+    font-family: ivyOra;
     margin-top: 20px;
 }
 
@@ -4338,7 +4361,7 @@ svg.blog1-icon {
 .blog2-slider-txt1 {
     color: #eee3d4;
     font-size: 30px;
-    font-family: Elsie;
+    font-family: ivyOra;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -4484,7 +4507,7 @@ ul.category_sidebar-blog2 {
 .blog2-post-txt1 {
     color: #FFF;
     font-size: 22px;
-    font-family: Elsie;
+    font-family: ivyOra;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -4600,7 +4623,7 @@ ul.blog2-tag-list li:hover {
 .blog4-txt2 {
     color: #FFF;
     font-size: 40px;
-    font-family: Elsie;
+    font-family: ivyOra;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -4632,7 +4655,7 @@ ul.blog2-tag-list li:hover {
 .blog5-txt2 {
     color: #FFFFFF;
     font-size: 40px;
-    font-family: Elsie;
+    font-family: ivyOra;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -4705,7 +4728,7 @@ ul.blog2-tag-list li:hover {
 .blogpage6-txt1 {
     color: #FFFFFF;
     font-size: 30px;
-    font-family: Elsie;
+    font-family: ivyOra;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -4734,7 +4757,7 @@ ul.blog2-tag-list li:hover {
 .blogpage7-txt1 {
     color: #FFFFFF;
     font-size: 30px;
-    font-family: Elsie;
+    font-family: ivyOra;
     font-style: normal;
     font-weight: 400;
     line-height: 40px;
@@ -4847,7 +4870,7 @@ ul.blog2-tag-list li:hover {
     color: #FFF;
     text-align: center;
     font-size: 96px;
-    font-family: Elsie;
+    font-family: ivyOra;
     margin-top: 40px;
     font-weight: 400;
     line-height: normal;
@@ -5079,7 +5102,7 @@ textarea {
 .about-us-txt1 {
     color: #FFF;
     font-size: 60px;
-    font-family: Elsie;
+    font-family: ivyOra;
     font-style: normal;
     font-weight: 400;
     line-height: 70px;
@@ -5162,7 +5185,7 @@ textarea {
     color: #FFF;
     text-align: center;
     font-size: 96px;
-    font-family: Elsie;
+    font-family: ivyOra;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -5193,7 +5216,7 @@ textarea {
     color: #FFF;
     text-align: center;
     font-size: 24px;
-    font-family: Elsie;
+    font-family: ivyOra;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -5418,7 +5441,7 @@ textarea {
     color: #FFFFFF;
     text-align: center;
     font-size: 96px;
-    font-family: Elsie;
+    font-family: ivyOra;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -5437,7 +5460,7 @@ textarea {
 .history-txt3 {
     color: #FFF;
     font-size: 60px;
-    font-family: Elsie;
+    font-family: ivyOra;
     font-style: normal;
     font-weight: 400;
     line-height: 70px;
@@ -5516,7 +5539,7 @@ textarea {
 .single-chefs-txt2 {
     color: #FFF;
     font-size: 40px;
-    font-family: Elsie;
+    font-family: ivyOra;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -5771,7 +5794,7 @@ svg.spinner-webkit path {
 
 .singleblog1-txt1 {
     color: #FFF;
-    font-family: Elsie;
+    font-family: ivyOra;
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
@@ -5807,7 +5830,7 @@ svg.spinner-webkit path {
 
 .singleblog1-txt4 {
     color: #FFF;
-    font-family: Elsie;
+    font-family: ivyOra;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -5884,7 +5907,7 @@ svg.spinner-webkit path {
 
 .singleblogpage1-txt2 {
     color: #FFF;
-    font-family: Elsie;
+    font-family: ivyOra;
     font-size: 60px;
     font-style: normal;
     font-weight: 400;
@@ -5894,7 +5917,7 @@ svg.spinner-webkit path {
 
 .singleblogpage1-txt3 {
     color: #FFF;
-    font-family: Elsie;
+    font-family: ivyOra;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
@@ -5918,7 +5941,7 @@ svg.spinner-webkit path {
 
 .comment-txt1 {
     color: #FFF;
-    font-family: Elsie;
+    font-family: ivyOra;
     font-size: 60px;
     font-style: normal;
     font-weight: 400;
@@ -5942,7 +5965,7 @@ svg.spinner-webkit path {
 
 .comment-title {
     color: #FFF;
-    font-family: Elsie;
+    font-family: ivyOra;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -6025,7 +6048,7 @@ svg.spinner-webkit path {
 
 .comment-form h2 {
     color: #FFF;
-    font-family: Elsie;
+    font-family: ivyOra;
     font-size: 60px;
     font-style: normal;
     font-weight: 400;
@@ -6120,7 +6143,7 @@ svg.spinner-webkit path {
 .single-blogpage2-txt1 {
     color: #eee3d4;
     text-align: center;
-    font-family: Elsie;
+    font-family: ivyOra;
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
@@ -6197,7 +6220,7 @@ svg.spinner-webkit path {
 .single-blogpage3-txt1 {
     color: #FFF;
     text-align: center;
-    font-family: Elsie;
+    font-family: ivyOra;
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
@@ -6309,7 +6332,7 @@ svg.spinner-webkit path {
 
 .single-shop-txt1 {
     color: #FFF;
-    font-family: Elsie;
+    font-family: ivyOra;
     font-size: 60px;
     font-style: normal;
     font-weight: 400;
@@ -6345,7 +6368,7 @@ svg.spinner-webkit path {
 
 .single-shop-txt6 {
     color: #eee3d4;
-    font-family: Elsie;
+    font-family: ivyOra;
     font-size: 60px;
     font-style: normal;
     font-weight: 900;
@@ -6463,7 +6486,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 .single-shop-txt8 {
     color: #FFF;
-    font-family: Elsie;
+    font-family: ivyOra;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
@@ -6504,7 +6527,7 @@ a.single-shop-txt8:hover {
 .single-shop-heading {
     color: #FFF;
     text-align: center;
-    font-family: Elsie;
+    font-family: ivyOra;
     font-size: 60px;
     font-style: normal;
     font-weight: 400;
@@ -6513,7 +6536,7 @@ a.single-shop-txt8:hover {
 
 .single-shop-name {
     color: #FFF;
-    font-family: Elsie;
+    font-family: ivyOra;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -6660,7 +6683,7 @@ a.single-shop-txt8:hover {
 
 .res-txt1 {
     color: #FFF;
-    font-family: Elsie;
+    font-family: ivyOra;
     font-size: 96px;
     font-style: normal;
     font-weight: 400;
@@ -7063,7 +7086,7 @@ i.fa-regular.fa-xmark.close-btn:hover {
 .prod-name-cart-view {
     color: #FFF;
     text-align: center;
-    font-family: Elsie;
+    font-family: ivyOra;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -7267,7 +7290,7 @@ input.custom-form-control:focus-visible {
 
 .bill-txt h3 {
     color: #FFF;
-    font-family: Elsie;
+    font-family: ivyOra;
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
