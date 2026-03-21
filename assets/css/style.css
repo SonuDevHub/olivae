@@ -1,20 +1,20 @@
 @font-face {
     font-family: 'PolymathRegular';
-    src: url('fonts/PolymathDispDemo-Regular.woff2') format('woff2');
+    src: url('assets/fonts/PolymathDispDemo-Regular.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'PolymathBold';
-    src: url('fonts/PolymathDispDemo-Bold.woff2') format('woff2');
+    src: url('assets/fonts/PolymathDispDemo-Bold.woff2') format('woff2');
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'ivyOra';
-    src: url('fonts/IvyOraDisplay-Light.woff2') format('woff2');
+    src: url('assets/fonts/IvyOraDisplay-Light.woff2') format('woff2');
     font-weight: 300;
     font-style: normal;
 }
