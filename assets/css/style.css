@@ -2153,7 +2153,7 @@ a.home2-search-icon {
 .home3-form-txt2 {
     color: #FFF;
     font-size: 40px;
-    font-family: ivyOra;
+    font-family: 'ivyOra';
     margin-top: 10px;
 }
 
@@ -3439,7 +3439,7 @@ ul.has-sub-menu {
     color: #FFFFFF;
     text-align: center;
     font-size: 60px;
-    font-family: ivyOra;
+    font-family: 'ivyOra';
     line-height: 70px;
     margin-top: 20px;
 }
@@ -3943,7 +3943,7 @@ ul.pagination {
     color: #FFFFFF;
     text-align: center;
     font-size: 60px;
-    font-family: ivyOra;
+    font-family: 'ivyOra';
     line-height: 70px;
     margin-top: 20px;
 }
@@ -4142,7 +4142,7 @@ table {
     color: #FFF;
     font-size: 24px;
     line-height: 30px;
-    font-family: ivyOra;
+    font-family: 'ivyOra';
 }
 
 .menu7-txt2 {
@@ -4172,7 +4172,7 @@ table {
     color: #ffffff;
     text-align: center;
     font-size: 30px;
-    font-family: ivyOra;
+    font-family: 'ivyOra';
 }
 
 .menupage8-overlay {
@@ -4225,7 +4225,7 @@ table {
     color: #FFF;
     text-align: center;
     font-size: 60px;
-    font-family: ivyOra;
+    font-family: 'ivyOra';
     line-height: 70px;
 }
 
@@ -4296,7 +4296,7 @@ table {
 .blog2-txt2 {
     color: #FFF;
     font-size: 40px;
-    font-family: ivyOra;
+    font-family: 'ivyOra';
     margin-top: 20px;
 }
 
@@ -4362,7 +4362,7 @@ svg.blog1-icon {
 .blog2-slider-txt1 {
     color: #eee3d4;
     font-size: 30px;
-    font-family: ivyOra;
+    font-family: 'ivyOra';
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -4508,7 +4508,7 @@ ul.category_sidebar-blog2 {
 .blog2-post-txt1 {
     color: #FFF;
     font-size: 22px;
-    font-family: ivyOra;
+    font-family: 'ivyOra';
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -4656,7 +4656,7 @@ ul.blog2-tag-list li:hover {
 .blog5-txt2 {
     color: #FFFFFF;
     font-size: 40px;
-    font-family: ivyOra;
+    font-family: 'ivyOra';
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -4729,7 +4729,7 @@ ul.blog2-tag-list li:hover {
 .blogpage6-txt1 {
     color: #FFFFFF;
     font-size: 30px;
-    font-family: ivyOra;
+    font-family: 'ivyOra';
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -4758,7 +4758,7 @@ ul.blog2-tag-list li:hover {
 .blogpage7-txt1 {
     color: #FFFFFF;
     font-size: 30px;
-    font-family: ivyOra;
+    font-family: 'ivyOra';
     font-style: normal;
     font-weight: 400;
     line-height: 40px;
@@ -4871,7 +4871,7 @@ ul.blog2-tag-list li:hover {
     color: #FFF;
     text-align: center;
     font-size: 96px;
-    font-family: ivyOra;
+    font-family: 'ivyOra';
     margin-top: 40px;
     font-weight: 400;
     line-height: normal;
@@ -5103,7 +5103,7 @@ textarea {
 .about-us-txt1 {
     color: #FFF;
     font-size: 60px;
-    font-family: ivyOra;
+    font-family: 'ivyOra';
     font-style: normal;
     font-weight: 400;
     line-height: 70px;
@@ -5186,7 +5186,7 @@ textarea {
     color: #FFF;
     text-align: center;
     font-size: 96px;
-    font-family: ivyOra;
+    font-family: 'ivyOra';
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -5217,7 +5217,7 @@ textarea {
     color: #FFF;
     text-align: center;
     font-size: 24px;
-    font-family: ivyOra;
+    font-family: 'ivyOra';
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -5442,7 +5442,7 @@ textarea {
     color: #FFFFFF;
     text-align: center;
     font-size: 96px;
-    font-family: ivyOra;
+    font-family: 'ivyOra';
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -5461,7 +5461,7 @@ textarea {
 .history-txt3 {
     color: #FFF;
     font-size: 60px;
-    font-family: ivyOra;
+    font-family: 'ivyOra';
     font-style: normal;
     font-weight: 400;
     line-height: 70px;
@@ -5540,7 +5540,7 @@ textarea {
 .single-chefs-txt2 {
     color: #FFF;
     font-size: 40px;
-    font-family: ivyOra;
+    font-family: 'ivyOra';
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -5795,7 +5795,7 @@ svg.spinner-webkit path {
 
 .singleblog1-txt1 {
     color: #FFF;
-    font-family: ivyOra;
+    font-family: 'ivyOra';
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
@@ -5831,7 +5831,7 @@ svg.spinner-webkit path {
 
 .singleblog1-txt4 {
     color: #FFF;
-    font-family: ivyOra;
+    font-family: 'ivyOra';
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -5908,7 +5908,7 @@ svg.spinner-webkit path {
 
 .singleblogpage1-txt2 {
     color: #FFF;
-    font-family: ivyOra;
+    font-family: 'ivyOra';
     font-size: 60px;
     font-style: normal;
     font-weight: 400;
@@ -5918,7 +5918,7 @@ svg.spinner-webkit path {
 
 .singleblogpage1-txt3 {
     color: #FFF;
-    font-family: ivyOra;
+    font-family: 'ivyOra';'
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
@@ -5942,7 +5942,7 @@ svg.spinner-webkit path {
 
 .comment-txt1 {
     color: #FFF;
-    font-family: ivyOra;
+    font-family: 'ivyOra';
     font-size: 60px;
     font-style: normal;
     font-weight: 400;
@@ -5966,7 +5966,7 @@ svg.spinner-webkit path {
 
 .comment-title {
     color: #FFF;
-    font-family: ivyOra;
+    font-family: 'ivyOra';
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -6049,7 +6049,7 @@ svg.spinner-webkit path {
 
 .comment-form h2 {
     color: #FFF;
-    font-family: ivyOra;
+    font-family: 'ivyOra';
     font-size: 60px;
     font-style: normal;
     font-weight: 400;
@@ -6144,7 +6144,7 @@ svg.spinner-webkit path {
 .single-blogpage2-txt1 {
     color: #eee3d4;
     text-align: center;
-    font-family: ivyOra;
+    font-family: 'ivyOra';
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
@@ -6221,7 +6221,7 @@ svg.spinner-webkit path {
 .single-blogpage3-txt1 {
     color: #FFF;
     text-align: center;
-    font-family: ivyOra;
+    font-family: 'ivyOra';
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
@@ -6333,7 +6333,7 @@ svg.spinner-webkit path {
 
 .single-shop-txt1 {
     color: #FFF;
-    font-family: ivyOra;
+    font-family: 'ivyOra';
     font-size: 60px;
     font-style: normal;
     font-weight: 400;
@@ -6369,7 +6369,7 @@ svg.spinner-webkit path {
 
 .single-shop-txt6 {
     color: #eee3d4;
-    font-family: ivyOra;
+    font-family: 'ivyOra';
     font-size: 60px;
     font-style: normal;
     font-weight: 900;
@@ -6487,7 +6487,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 .single-shop-txt8 {
     color: #FFF;
-    font-family: ivyOra;
+    font-family: 'ivyOra';
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
@@ -6528,7 +6528,7 @@ a.single-shop-txt8:hover {
 .single-shop-heading {
     color: #FFF;
     text-align: center;
-    font-family: ivyOra;
+    font-family: 'ivyOra';
     font-size: 60px;
     font-style: normal;
     font-weight: 400;
@@ -6537,7 +6537,7 @@ a.single-shop-txt8:hover {
 
 .single-shop-name {
     color: #FFF;
-    font-family: ivyOra;
+    font-family: 'ivyOra';
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -6684,7 +6684,7 @@ a.single-shop-txt8:hover {
 
 .res-txt1 {
     color: #FFF;
-    font-family: ivyOra;
+    font-family: 'ivyOra';
     font-size: 96px;
     font-style: normal;
     font-weight: 400;
@@ -7087,7 +7087,7 @@ i.fa-regular.fa-xmark.close-btn:hover {
 .prod-name-cart-view {
     color: #FFF;
     text-align: center;
-    font-family: ivyOra;
+    font-family: 'ivyOra';
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -7291,7 +7291,7 @@ input.custom-form-control:focus-visible {
 
 .bill-txt h3 {
     color: #FFF;
-    font-family: ivyOra;
+    font-family: 'ivyOra';
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
